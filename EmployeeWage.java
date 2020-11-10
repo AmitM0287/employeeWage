@@ -22,6 +22,8 @@ public class EmployeeWage {
 		int wageHour = 20;
 		int fullDay = 8;
 		int halfDay = 4;
+		int totalWage = 0;
+		int dailyWage = 0;
 
 	}
 
