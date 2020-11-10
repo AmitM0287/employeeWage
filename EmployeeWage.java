@@ -25,6 +25,24 @@ public class EmployeeWage {
 		int totalWage = 0;
 		int dailyWage = 0;
 
+		System.out.println("Day No." + "	    " + "Daily Wage" + "      " + "Total Wage");
+		for (int i = 1; i <= 30; i++) {
+			int n = attendence();
+			if (n == 1) {
+				int t = random.nextInt(2);
+
+				if (t == 1) {
+					dailyWage = fullDay * wageHour;
+				} else {
+					dailyWage = halfDay * wageHour;
+				}
+			} else {
+				dailyWage = 0;
+			}
+			totalWage = totalWage + dailyWage;
+
+			System.out.println("Day " + i + "		" + dailyWage + "		" + totalWage);
+		}
 	}
 
 }
