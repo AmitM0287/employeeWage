@@ -19,12 +19,9 @@ public class EmployeeWage {
 
 		System.out.println("Welcome to Employee Wage Computation Program");
 
-		if (attendence() == 1){
-			System.out.println("Present");
-
-		}else{
-			System.out.println("Absent");
-		}
+		int wageHour = 20;
+		int fullDay = 8;
+		int halfDay = 4;
 
 	}
 
